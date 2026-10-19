@@ -1,0 +1,40 @@
+{
+  "_readme": [
+    "REFERENCE FILE ONLY. projects.html reads data/projects.json, not this file.",
+    "Copy the shape below into data/projects.json and replace every value.",
+    "Use only these category values if you want the filter buttons to stay tidy:",
+    "Financial Analysis, Stock Analysis, M&A, Valuation, Portfolio Analysis,",
+    "Data Analysis, Fintech, Research",
+    "",
+    "Fields:",
+    "  title        (required) Project title, exactly as on the detail page.",
+    "  slug         (required) The detail page filename, without '.html'.",
+    "                             Leave 'url' empty and the title renders as plain text.",
+    "  date         (required) Display string, e.g. 'Mar 2027' or '2027'.",
+    "  category     (required) One of the categories listed above.",
+    "  tags         (optional) Short labels. Keep to 2-4.",
+    "  summary      (required) One sentence. This is what recruiters read first.",
+    "  url          (optional) Path to the detail page, e.g. 'projects/my-project.html'.",
+    "  links        (optional) Any of: pdf, repo, external. Delete the ones you do not use.",
+    "  confidential (optional) true if the write-up is anonymised. Defaults to false.",
+    "",
+    "Newest first: the list is rendered in the order it appears in the file."
+  ],
+  "projects": [
+    {
+      "title": "[Project title]",
+      "slug": "[project-slug]",
+      "date": "[Month Year]",
+      "category": "[Category]",
+      "tags": ["[tag]", "[tag]"],
+      "summary": "[One-sentence summary of the project — what it examined and what it found.]",
+      "url": "projects/[project-slug].html",
+      "links": {
+        "pdf": "[link-to-pdf]",
+        "repo": "[link-to-repo]",
+        "external": "[external-link]"
+      },
+      "confidential": false
+    }
+  ]
+}

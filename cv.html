@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV — [Your Name]</title>
+  <meta name="description" content="Curriculum vitae of [Your Name], Year 2 Finance student at the University of Hong Kong.">
+  <link rel="canonical" href="https://YOUR-USERNAME.github.io/REPO-NAME/cv.html">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="CV — [Your Name]">
+  <meta property="og:description" content="Curriculum vitae of [Your Name], Finance student at HKU.">
+  <meta property="og:url" content="https://YOUR-USERNAME.github.io/REPO-NAME/cv.html">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-title" href="index.html">
+        [Your Name]
+        <span>Finance · The University of Hong Kong</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="cv.html" aria-current="page">CV</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="notes.html">Notes</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container">
+      <!-- Toolbar is hidden when printing. -->
+      <div class="cv-toolbar">
+        <!-- Point this at assets/cv/cv.pdf — replace the file, keep the name. -->
+        <a class="btn btn--primary" href="assets/cv/cv.pdf" download>Download PDF</a>
+        <button class="btn btn--ghost" type="button" onclick="window.print()">Print this page</button>
+        <p style="margin: 0; font-size: var(--text-sm); color: var(--muted);">
+          Last updated: <span class="ph">[Month Year]</span>
+        </p>
+      </div>
+
+      <!-- CV HEADER -->
+      <header class="cv-header">
+        <h1><span class="ph">[Your Name]</span></h1>
+        <p class="cv-contact">
+          <span><span class="ph">[City, Country]</span></span>
+          <span><a class="ph" href="mailto:[your-email]">[your-email@example.com]</a></span>
+          <span><a class="ph" href="tel:[your-phone]">[+852 0000 0000]</a></span>
+          <span><a class="ph" href="[your-linkedin-url]">linkedin.com/in/[your-handle]</a></span>
+          <span><a class="ph" href="https://github.com/[your-github-username]">github.com/[your-github-username]</a></span>
+        </p>
+      </header>
+
+      <div class="cv-body">
+        <!-- SUMMARY -->
+        <section class="cv-section" aria-labelledby="cv-summary">
+          <h2 id="cv-summary">Profile</h2>
+          <p>
+            <span class="ph">[Two to three sentences: who you are, what you study, what you are looking for, and one concrete strength. Do not use adjectives you cannot evidence.]</span>
+          </p>
+        </section>
+
+        <!-- EDUCATION -->
+        <section class="cv-section" aria-labelledby="cv-education">
+          <h2 id="cv-education">Education</h2>
+          <ul class="entry-list">
+            <li class="entry">
+              <div class="entry__head">
+                <h3>The University of Hong Kong</h3>
+                <p class="entry__date">
+                  <span class="ph">[Sep 2024]</span> — <span class="ph">[Jun 2028]</span>
+                </p>
+              </div>
+              <p class="entry__org">
+                <span class="ph">[Degree title and major, e.g. BBA (Finance)]</span> ·
+                <span class="ph">[Hong Kong]</span>
+              </p>
+              <ul>
+                <li>GPA: <span class="ph">[x.x / 4.3 — include only if you are comfortable]</span></li>
+                <li><span class="ph">[Honours, scholarships, or dean's list — only if real]</span></li>
+                <li>Relevant coursework: <span class="ph">[list 4–6 genuinely taken courses]</span></li>
+              </ul>
+            </li>
+            <!-- Duplicate the block above for exchange programmes or prior schools. -->
+          </ul>
+        </section>
+
+        <!-- EXPERIENCE: no invented roles. One template block is provided. -->
+        <section class="cv-section" aria-labelledby="cv-experience">
+          <h2 id="cv-experience">Experience</h2>
+          <ul class="entry-list">
+            <li class="entry">
+              <div class="entry__head">
+                <h3><span class="ph">[Job title / role]</span></h3>
+                <p class="entry__date">
+                  <span class="ph">[Month Year]</span> — <span class="ph">[Month Year or Present]</span>
+                </p>
+              </div>
+              <p class="entry__org">
+                <span class="ph">[Organisation]</span> · <span class="ph">[Location / Remote]</span>
+              </p>
+              <ul>
+                <li><span class="ph">[Achievement bullet — start with a verb, include scope or number where honest]</span></li>
+                <li><span class="ph">[Achievement bullet]</span></li>
+                <li><span class="ph">[Achievement bullet]</span></li>
+              </ul>
+            </li>
+            <!--
+              Duplicate the <li class="entry"> block above for each additional role.
+              If you have no formal experience yet, delete this section entirely
+              and strengthen Projects instead — an honest CV is a stronger CV.
+            -->
+          </ul>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="cv-section" aria-labelledby="cv-projects">
+          <h2 id="cv-projects">Selected projects</h2>
+          <ul class="entry-list">
+            <li class="entry">
+              <div class="entry__head">
+                <h3><span class="ph">[Project title]</span></h3>
+                <p class="entry__date"><span class="ph">[Month Year]</span></p>
+              </div>
+              <p class="entry__org">
+                <span class="ph">[Type — e.g. Coursework, Independent research, Competition]</span> ·
+                <span class="ph">[Tools used]</span>
+              </p>
+              <ul>
+                <li><span class="ph">[One line on the problem you addressed]</span></li>
+                <li><span class="ph">[One line on what you did and what you found]</span></li>
+              </ul>
+            </li>
+            <!-- Duplicate as needed. Keep to 2–4 of your strongest. -->
+          </ul>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="cv-section" aria-labelledby="cv-skills">
+          <h2 id="cv-skills">Skills &amp; tools</h2>
+          <dl class="meta-list">
+            <dt>Finance</dt>
+            <dd><span class="ph">[Financial statement analysis, valuation, modelling — only what you can discuss in an interview]</span></dd>
+            <dt>Technical</dt>
+            <dd><span class="ph">[Excel, Python, SQL, PowerPoint — with honest proficiency]</span></dd>
+            <dt>Data &amp; tools</dt>
+            <dd><span class="ph">[Terminals, databases, or platforms you have used]</span></dd>
+            <dt>Languages</dt>
+            <dd><span class="ph">[Language — level, e.g. Native / Fluent / Professional working proficiency]</span></dd>
+          </dl>
+        </section>
+
+        <!-- CERTIFICATIONS -->
+        <section class="cv-section" aria-labelledby="cv-certs">
+          <h2 id="cv-certs">Certifications &amp; awards</h2>
+          <p>
+            <span class="ph">[Add verifiable certifications, competition placements, or awards here. Delete this section if it is empty.]</span>
+          </p>
+        </section>
+
+        <!-- LEADERSHIP -->
+        <section class="cv-section" aria-labelledby="cv-leadership">
+          <h2 id="cv-leadership">Leadership &amp; extracurricular</h2>
+          <ul class="entry-list">
+            <li class="entry">
+              <div class="entry__head">
+                <h3><span class="ph">[Role]</span></h3>
+                <p class="entry__date">
+                  <span class="ph">[Month Year]</span> — <span class="ph">[Month Year]</span>
+                </p>
+              </div>
+              <p class="entry__org">
+                <span class="ph">[Society, club, team, or organisation]</span>
+              </p>
+              <ul>
+                <li><span class="ph">[What you did and what it involved — one line]</span></li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <!-- INTERESTS -->
+        <section class="cv-section" aria-labelledby="cv-interests">
+          <h2 id="cv-interests">Interests</h2>
+          <p>
+            <span class="ph">[Genuine interests — this is a conversation starter in interviews, so keep it real and specific.]</span>
+          </p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="disclaimer">
+        &copy; <span id="year">2026</span> [Your Name]. Views expressed are my
+        own and do not represent the views of any employer, university, or
+        institution. Content is provided for educational and informational
+        purposes only and does not constitute investment or financial advice.
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

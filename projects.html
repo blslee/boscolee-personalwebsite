@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects — [Your Name]</title>
+  <meta name="description" content="Financial analysis, valuation, equity research, and data projects by [Your Name].">
+  <link rel="canonical" href="https://YOUR-USERNAME.github.io/REPO-NAME/projects.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Projects — [Your Name]">
+  <meta property="og:description" content="Financial analysis, valuation, equity research, and data projects.">
+  <meta property="og:url" content="https://YOUR-USERNAME.github.io/REPO-NAME/projects.html">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-title" href="index.html">
+        [Your Name]
+        <span>Finance · The University of Hong Kong</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="notes.html">Notes</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container">
+      <div class="page-header">
+        <p class="section-label">Portfolio</p>
+        <h1>Projects</h1>
+        <p>
+          Financial analysis, valuation, equity research, and data work. Each
+          write-up covers the problem, the approach, the tools used, and what I
+          took away from it.
+        </p>
+      </div>
+
+      <!--
+        The list below is rendered from data/projects.json.
+        To publish a project:
+          1. Duplicate projects/template.html and fill it in.
+          2. Add an entry to data/projects.json pointing at your new file.
+        Category filter buttons are generated automatically from the data.
+      -->
+      <section class="section--tight" aria-labelledby="projects-heading">
+        <h2 id="projects-heading" class="visually-hidden" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);">All projects</h2>
+
+        <div class="filter-bar" id="project-filters" role="group" aria-label="Filter projects by category"></div>
+
+        <p id="project-status" role="status" aria-live="polite"
+           style="font-size: var(--text-sm); color: var(--muted); margin-bottom: var(--space-3);"></p>
+
+        <ul class="project-list" id="project-list" data-source="data/projects.json">
+          <!-- Rendered by assets/js/main.js. Fallback for no-JS visitors: -->
+          <noscript>
+            <li>
+              <div class="notice">
+                <p><strong>Projects will be added soon.</strong></p>
+                <p>
+                  The project list requires JavaScript to load. If it is
+                  unavailable, please contact me directly and I will send the
+                  relevant material.
+                </p>
+              </div>
+            </li>
+          </noscript>
+        </ul>
+      </section>
+
+      <section class="section--tight" aria-labelledby="confidentiality-heading">
+        <h2 id="confidentiality-heading" class="visually-hidden" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);">Confidentiality note</h2>
+        <div class="notice">
+          <p>
+            <strong>A note on confidentiality.</strong> Where work relates to an
+            employer, a client, or a live situation, details are omitted or
+            anonymised. Nothing on this site should be read as disclosing
+            non-public information.
+          </p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div>
+          <h2>[Your Name]</h2>
+          <p>
+            Finance student at the University of Hong Kong.
+            <span class="ph">[Optional: one short line about what you are looking for]</span>
+          </p>
+          <p>
+            <a class="ph" href="mailto:[your-email]">[your-email@example.com]</a>
+            &nbsp;·&nbsp;
+            <a class="ph" href="[your-linkedin-url]">LinkedIn</a>
+            &nbsp;·&nbsp;
+            <a class="ph" href="https://github.com/[your-github-username]">GitHub</a>
+          </p>
+        </div>
+        <div>
+          <h2>Site</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="notes.html">Notes</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="disclaimer">
+        &copy; <span id="year">2026</span> [Your Name]. Views expressed are my
+        own and do not represent the views of any employer, university, or
+        institution. All content on this site is provided for educational and
+        informational purposes only and does not constitute investment,
+        financial, or professional advice.
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

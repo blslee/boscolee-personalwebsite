@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Site logo placeholder">
+  <!-- Placeholder favicon. Replace the initials below with your own,
+       or swap this whole file for a 32x32 PNG/ICO and update the
+       <link rel="icon"> tag in each HTML file. -->
+  <rect width="64" height="64" rx="8" fill="#16324f"/>
+  <text x="32" y="41" font-family="Georgia, 'Times New Roman', serif" font-size="26"
+        fill="#fbfaf8" text-anchor="middle" letter-spacing="1">YN</text>
+</svg>
